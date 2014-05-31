@@ -12,9 +12,9 @@ public class Lock extends Activity {
 		super.onCreate(savedInstanceState);
 //		setContentView(R.layout.activity_lock);
 		if(toastHasBeenShown == 0) {
-			Toast.makeText(getApplicationContext(), "LockScreen be gone" , Toast.LENGTH_SHORT).show();
+			Toast.makeText(getApplicationContext(), " " , Toast.LENGTH_SHORT).show();
 		} else if(toastHasBeenShown == 1) {
-			Toast.makeText(getApplicationContext(), "by littlegreenishrobot" , Toast.LENGTH_SHORT).show();
+			Toast.makeText(getApplicationContext(), " " , Toast.LENGTH_SHORT).show();
 		}
 		
 		toastHasBeenShown++;
